@@ -1,0 +1,57 @@
+section {
+    width: auto;
+
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+section h1 {
+    margin: 0 0 10px 0;
+
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.container img {
+    width: 100%;
+}
+
+.media {
+    padding: 10px;
+}
+
+.media .list {
+    display: flex;
+
+}
+
+.list img {
+    max-width: 32%;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .container img {
+        width: auto;
+    }
+    
+    .updown {
+        flex-direction: column;
+    }
+
+    .list img {
+        max-width: 24%;
+    }
+}
