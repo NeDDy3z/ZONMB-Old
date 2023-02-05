@@ -46,3 +46,13 @@ footer p {
 
     color: grey;
 }
+
+footer p a i {
+    color: grey;
+}
+
+footer p a i:hover {
+    color: rgb(61, 129, 255);
+}
+
+
